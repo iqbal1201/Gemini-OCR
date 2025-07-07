@@ -44,5 +44,8 @@ pip install streamlit request python-dotenv
    strealimt run main.py
    ```
 6. Result
+
+   ![image](https://github.com/user-attachments/assets/395ed5d5-b40c-42a6-b8dd-407c2d81afb9)
+
    
    
