@@ -1,4 +1,4 @@
-Gemini OCR for Invoices and Receipts
+# Gemini OCR for Invoices and Receipts
 
 This project demonstrates how to use the Google Gemini API to perform Optical Character Recognition (OCR) on images of invoices and receipts, extracting valuable text and key information. The core logic is implemented in Python, designed to be easily integrated into a user interface, such as a Streamlit application.
 
@@ -30,12 +30,19 @@ To run this project, you'll need Python 3.7+ and the following libraries:
 pip install streamlit request python-dotenv
 ```
 
-3. **Install Python dependencies:**
-Obtain a Google Gemini API Key:
-
-Go to Google AI Studio.
-
-Create a new project or select an existing one.
-
-Generate an API key.
-
+3. **Obtain a Google Gemini API Key:**
+   - Go to Google AI Studio.
+   - Create a new project or select an existing one.
+   - Generate an API key.
+  
+4. **Create .env file:**
+   ```bash
+   GEMINI_API_KEY=xxxxxxxxxxxxxxx
+   ```
+5. **Run Streamlit script**
+   ```bash
+   strealimt run main.py
+   ```
+6. Result
+   
+   
